@@ -41,7 +41,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_Text5}", "click", function(sym, e) {
          // Navigate to a new URL in the current window
          // (replace "_self" with appropriate target attribute for a new window)
-         window.open("app/index.html", "_self");
+         window.open("app.html", "_self");
          
 
       });
